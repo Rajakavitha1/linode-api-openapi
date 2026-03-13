@@ -122,3 +122,4 @@ For API-level release notes, see: https://techdocs.akamai.com/linode-api/changel
 | Linode CLI (uses this spec) | https://github.com/linode/linode-cli |
 | Linode Python SDK | https://github.com/linode/linode_api4-python |
 | Linode Go SDK | https://github.com/linode/linodego |
+| Linode Ansible | https://github.com/linode/ansible_linode |
