@@ -7,10 +7,10 @@
 This is a **distribution-only repository**. It contains a single packaged and distributable OpenAPI spec file for the Linode API:
 
 ```
-openapi.json        # The complete Linode API OpenAPI 3.0 spec — do not hand-edit
+openapi.json        # The complete Linode API OpenAPI 3.0 spec — do not edit it
 ```
 
-This repo does NOT contain the source spec. The `openapi.json` file is generated upstream and published here as a release artifact. Do not make direct edits to `openapi.json` to add or change API endpoints — those changes will be overwritten on the next release.
+**NOTE**: This repo does NOT contain the source spec. The `openapi.json` file is generated upstream and published here as a release artifact. Do not make direct edits to `openapi.json` to add or change API endpoints.
 
 ---
 
@@ -87,7 +87,7 @@ The Linode API SDKs are **hand-written**, not auto-generated from this spec. Onl
 | Linode CLI | https://github.com/linode/linode-cli | `pip install linode-cli` | ✅ Auto-generated from `openapi.json` |
 | Terraform Provider | https://github.com/linode/terraform-provider-linode | via Terraform Registry | ❌ Hand-written |
 
-This `openapi.json` spec is best used for reference, tooling integration, building API explorers, and as the source of truth for the Linode CLI — not as a general source for SDK generation.
+**NOTE** This `openapi.json` spec is best used for reference, tooling integration, building API explorers, and as the source of truth for the Linode CLI. It is not as a general source for SDK generation.
 
 ---
 
